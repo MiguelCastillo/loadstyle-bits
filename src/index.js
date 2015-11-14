@@ -10,7 +10,7 @@ function loadStyle(moduleMeta /*, options*/) {
   attachToDOM(moduleMeta.source);
 
   return {
-    code: moduleMeta.source
+    exports: moduleMeta.source
   };
 }
 
