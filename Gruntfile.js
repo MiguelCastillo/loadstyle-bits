@@ -94,11 +94,11 @@ module.exports = function(grunt) {
     },
     release: {
       options: {
-        tagName: "v<%= version %>",
-        tagMessage: "Version <%= version %>",
-        commitMessage: "Release v<%= version %>",
+        tagName: 'v<%= version %>',
+        tagMessage: 'Version <%= version %>',
+        commitMessage: 'Release v<%= version %>',
         afterBump: [
-          "build"
+          'build'
         ]
       }
     }
